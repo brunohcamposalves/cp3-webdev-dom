@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.products-background {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/affordability-facebook-og?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1600376390000");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.products-section {
+    margin-top: 18px;
+}
+
+.products-title {
+  display: inline;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.003em;
+  line-height: 1.0834933333;
+  color: #ffff;
+}
+
+.product-image {
+  width: 15rem;
+  height: 15rem;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 30rem;
+  margin: 25px 0px;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.category-filter {
+  margin-top: 15px;
+  display: flex;
+  gap: 1rem;
+  width: 400px;
+}
+
+.available-input {
+  margin-top: 8px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.product-description {
+  height: 6rem;
+}
+
+.product-price {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #ffff;
+  background-color: #1b4353;
+  padding: 6px 12px;
+  border-radius: 12px;
+  display: inline-block;
+  letter-spacing: -0.5px;
+  margin: 8px 0;
+}
+
+.sold-out-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #8e8e93;
+  background-color: #f2f2f2;
+  border-radius: 999px;
+  padding: 4px 10px;
+  letter-spacing: 0.3px;
+  margin-left: 10px;
+}
